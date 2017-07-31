@@ -1,0 +1,2 @@
+/*! morgan-stanley-redesign 19-07-2017 */
+var MSCOM=MSCOM||{};MSCOM.Modules=MSCOM.Modules||{},MSCOM.Modules.accordion=function(){function a(){b()}function b(){d.on("click",function(){var a=d.index($(this));$(c[a]).toggleClass(e)})}var c=$(".accordion-panel"),d=$(".accordion-handle"),e="open";return{init:a}}();
